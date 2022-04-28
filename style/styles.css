@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+  background-color: #ddb892;
+}
+
+.box h1 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.box header {
+  background: #9c6644;
+  padding: 1rem 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box header span,
+.box header a {
+  color: #000;
+  text-decoration: none;
+}
+
+.box header span {
+  font-size: 1.4rem;
+}
+
+.box header a {
+  background: #DDB892;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.box section {
+  padding: 2rem 1rem;
+}
+
+.box section .text .img {
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.box section .text .img img {
+  width: 100%;
+  display: block;
+}
+
+.box section .text p {
+  text-indent: 1rem;
+  line-height: 2rem;
+}
+
+.box section .form {
+  background: #ede0d4;
+  padding: 1.8rem 1.5rem 1rem;
+  margin: 1rem 0;
+  max-height: 18rem;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.box section .form .button {
+  display: block;
+  border: none;
+  padding: 0.5rem 2rem;
+  background: #9c6644;
+  margin: 2rem auto 0;
+  color: #fff;
+  font-size: 0.8rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.box section .form .item {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.box section .form .item span {
+  white-space: nowrap;
+}
+
+.box section .form .item:last-child {
+  margin-bottom: 0;
+}
+
+.box section .form .item input {
+  width: 98%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #000;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.box footer {
+  background: #9c6644;
+  padding: 1rem 0.8rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .lg-show {
+    display: block !important;
+  }
+  .lg-hide {
+    display: none;
+  }
+  html {
+    font-size: 25px;
+  }
+  .box {
+    margin: 0 auto;
+  }
+  .txt {
+    padding: 0 1rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+    text-indent: 1rem;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 2rem 1rem 0.5rem !important;
+    align-items: center;
+  }
+  section .text {
+    width: 40%;
+    flex-shrink: 0;
+    text-indent: 1rem;
+  }
+  section .form {
+    width: 58%;
+    flex-shrink: 0;
+    margin-top: 0 !important;
+    border-radius: 0.5rem;
+  }
+  section .form .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  section .form .item {
+    width: 48%;
+    flex-direction: row !important;
+  }
+}

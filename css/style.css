@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*pageone*/
+
+.grid-column-layoutone{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.box{
+    padding: 2.65em;
+}
+
+.one{
+    background-color: #9C6644;
+    grid-row: 1/2;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.two{
+    background-image: url("/img/homebread.jpg");
+    grid-row: 2/3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.three{
+    background-color: #9C6644;
+    grid-row: 3/4;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    text-align: center;
+}
+
+li{
+    display: block;
+    background-color: #DDB892;
+    padding: 10px;
+    margin: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+li a {
+    transition: all 2s;
+    text-decoration: none;
+    color:black;
+}
+
+li:hover{
+    background-color: #E6CCB2;
+}
+
+/*pagetwo*/
+
+.grid-column-layouttwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 5.2fr;
+}
+
+.container{
+    padding: 2.45rem;
+}
+
+.pgtwoone{
+    background-color: #9C6644;
+    grid-row: 1/2;
+    text-align: left;
+    grid-column: 1/2;
+}
+
+.pgtwofour{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-color: #9C6644;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.pgtwonav{
+    display: block;
+    background-color: #DDB892;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.pagetwonavbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.pgtwotwo{
+    background-color: #DDB892;
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+
+.pagetwothree{
+    background-color: #9C6644;
+    grid-row: 3/4;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/3;
+}
+
+.breadtwo{
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.containers {
+    display: flex;
+    background-color:#DDB892;
+    width: 100%;
+    justify-content: space-around;
+}
+    
+.item {
+    background-color: white;
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
+    margin: 1%;
+}
+
+.itemone{
+    background-image: url("/img/breadtwo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itemtwo{
+    background-image: url("/img/butterbread.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itemthree{
+    background-image: url("/img/croissant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itemfour{
+    background-image: url("/img/homebread.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itemfive{
+    background-image: url("/img/sandwich.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itemsix{
+    background-image: url("/img/toast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textcontainers {
+    display: flex;
+    background-color:#DDB892;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text {
+    background-color: #DDB892;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
+    margin: 1%;
+    text-align: center;
+}
+
+/*page four*/
+
+.grid-column-layoutthree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr;
+}
+
+.pgfourtwo{
+    background-color: #DDB892;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 20px;
+    background-image: url("/img/toast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.qrcode{
+    height: 200px;
+}
