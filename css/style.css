@@ -23,7 +23,7 @@
 }
 
 .two{
-    background-image: url("https://sijinsmart.github.io/thebrightday/img/homebread.jpg"g);
+    background-image: url("https://sijinsmart.github.io/thebrightday/img/homebread.jpg");
     grid-row: 2/3;
     background-size: cover;
     background-repeat: no-repeat;
